@@ -252,14 +252,22 @@ echo '<font color="#28F000" style="font-size: 10pt">
 		&nbsp;&nbsp;'  .$_SESSION["lfg"]. '!!! </font>';
 $as=1;
 
+echo '<font color="#28F000" style="font-size: 10pt">
+		&nbsp;&nbsp;'  .$_SESSION["lfg"]. '!!! </font>';
+$as=1;
 
-echo '<meta http-equiv="refresh" content="0; url=Gallery2.php">';
 usleep(200000);
-unset($_SESSION['lfg']);
 unset($_SESSION['lghj']);
-session_destroy($_SESSION['lfg']);
 session_destroy($_SESSION['lghj']);
+$Timecount=0;
+while ($Timecount==4294967296)
+{
+	$Timecount++;
+}
+unset($_SESSION['lfg']);
+session_destroy($_SESSION['lfg']);
 $_SESSION["lghj"]="l";
+echo '<meta http-equiv="refresh" content="0; url=Gallery2.php">';
 
 if(isset($_SESSION["lg"]) && isset($_SESSION["lj"])  || $_SESSION["fg"]=="0") //die('');
 {
