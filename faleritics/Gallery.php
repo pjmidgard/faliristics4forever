@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Update</title>
+		<title>Add</title>
   <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
  <style>
 	#header{
